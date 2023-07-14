@@ -1,0 +1,29 @@
+#banner {
+    margin-top: 95px;
+}
+
+#j-hub {
+    font-weight: bold;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+
+
+#hub-kami .sosmed {
+    text-align: center;
+
+}
+
+#hub-kami .sosmed .card {
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    margin-top: 20px;
+    margin-left: 25px;
+}
+
+#hub-kami .sosmed .card-img-top {
+    width: 100px;
+}

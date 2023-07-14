@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <link rel="stylesheet" href="./../css/main.css" />
+    <link rel="stylesheet" href="./../css/toko.css">
+    <link rel="stylesheet" href="./../css/tentang.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="shorcut icon" href="./../img/logoo.ico">
+    <script src="https://kit.fontawesome.com/053c1ba18b.js" crossorigin="anonymous"></script>
+
+    <title>TOKO LAPAK JAJAN</title>
+</head>
+
+<body>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="http://lapakjajan.epizy.com/">LAPAK JAJAN</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="./../index.html">BERANDA</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="./toko.html">TOKO</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./tentang.html">TENTANG</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- content -->
+    <div class="container-fluid">
+
+        <div class="row fix" id="sidemenu">
+            <!-- Sidemenu -->
+            <div class="col-md-12 col-lg-4 ">
+                <div class="menu">
+                    <div class="sub-menu ">
+                        <a href="./toko.html">Cilok Bogor</a>
+                        <!-- <button onclick="myFunction()">Cilok Bogor</button> -->
+                    </div>
+                    <div class="sub-menu ">
+                        <a href="./tokoMbok.html">Warung Mbok Demplon</a>
+                    </div>
+                    <div class="sub-menu klik">
+                        <a href="./sugihRasa.html">Sugih Rasa</a>
+                    </div>
+                    <div class="sub-menu">
+                        <a href="./sofieKue.html">Dapur Sofie Kue</a>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-md-12 col-lg-8">
+                <div id="content-toko">
+                    <div class="row" id="identitas">
+                        <div class="col-12 col-lg-5" id="logo">
+                            <img src="./../img/sugih.png" alt="" style="width: 13em ;">
+                        </div>
+                        <div class="col-12 col-lg-6" id="deskripsi">
+                            <h3 style="font-weight: bold;">Sugih Rasa</h3>
+                            <h5>Deskripsi</h5>
+                            <p>Kedai Sugih Rasa menawarkan menu lezat dan pastinya disukai disemua kalangan, rasa yang
+                                khas dengan rempah asli Indonesia membuat kamu bikin ketagihan. Semua menu yang ada
+                                disini sudah terjamin kehiegenisannya dan halal. Jadi, tidak perlu ragu lagi untuk
+                                memesan menu yang ada di Kedai Sugih Rasa..</p>
+                            <h5>Alamat</h5>
+                            <p style="font-style: italic;">RT 003, RW 001, No.32, Kelurahan Ciomas Rahayu, Kecamatan
+                                Ciomas, Kabupaten Bogor</p>
+                            <h5>Hubungi Kami</h5>
+                            <div class="row" id="sosmed-toko">
+                                <div class="col-12 col-lg-3" data-aos="fade-down" data-aos-duration="500" >
+                                    <a
+                                        href="https://api.whatsapp.com/send?phone=+6287851304560&text=Selamat%20Datang%20di%20Sugih%20Rasa!%0ASilahkan%20isi%20form%20order%0ANama%20Pelanggan%3A%0ANo.%20HP%3A%0AAlamat%3A%0APesanan,%20Jumlah%3A%0APengiriman%20(COD/Lainnya)%3A">
+                                        <div class="box text-center">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16">
+                                                <path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"/>
+                                              </svg>
+                                            <p>Whatsapp</p>
+                                        </div>
+                                    </a>
+
+                                </div>
+                                <!-- <div class="col-12 col-lg-3">
+                                    <a href=" https://www.instagram.com/warung_mbok_demplon/">
+                                        <div class="box text-center">
+                                            <i class="fa-brands fa-instagram"></i>
+                                            <p>Instagram</p>
+                                        </div>
+                                    </a>
+
+                                </div> -->
+                                <div class="col-12 col-lg-3" data-aos="fade-down" data-aos-duration="500" data-aos-delay="200">
+                                    <a
+                                        href=" https://gofood.co.id/bogor/restaurant/sugih-rasa-bogor-utara-0ae20d39-07c4-4833-8513-ea31c86528ca">
+                                        <div class="box text-center">
+                                            <img src="./../img/gofood.png" width="50px" alt="">
+                                            <p>GoFood</p>
+                                        </div>
+                                    </a>
+
+                                </div>
+                                <!-- <div class="col-12 col-lg-3">
+                                    <a href="#">
+                                        <div class="box text-center">
+                                            <img src="./../img/grabfood.png" width="40px" alt="">
+                                            <p>Grabfood</p>
+                                        </div>
+                                    </a>
+                                </div> -->
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div class="row mt-3" id="toko">
+                        <h3>Produk</h3>
+                        <div class="row">
+                            <div class="col-12 col-lg-4">
+                                <div class="card" style="width: 13rem">
+                                    <img src="http://lapakjajan.yoviputranto.my.id/storage/assets/gallery/mEys288AheXZ6x2KsGsmpJD78aQ7HfDBSmUcsByx.png"
+                                        class="card-img-top" alt="..." />
+                                    <div class="card-body">
+                                        <div class="card-title">
+                                            <i class="fa-solid fa-star text-warning"></i>
+                                            <i class="fa-solid fa-star text-warning"></i>
+                                            <i class="fa-solid fa-star text-warning"></i>
+                                            <i class="fa-solid fa-star text-warning"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                        </div>
+                                        <h5 class="card-title">Dimsum</h5>
+                                        <p class="card-text">Rp. 3,000</p>
+                                        <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                            data-bs-target="#d-dimsum">
+                                            Detail Produk
+                                        </button>
+                                        <!-- <a href="#" class="btn">Detail Produk</a> -->
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-lg-4">
+                                <div class="card" style="width: 13rem">
+                                    <img src="http://lapakjajan.yoviputranto.my.id/storage/assets/gallery/p9dHzoWrHlF0g3QjI7YFD10ZOrp5IdNoY3Os5h01.png"
+                                        class="card-img-top" alt="..." />
+                                    <div class="card-body">
+                                        <div class="card-title">
+                                            <i class="fa-solid fa-star text-warning"></i>
+                                            <i class="fa-solid fa-star text-warning"></i>
+                                            <i class="fa-solid fa-star text-warning"></i>
+                                            <i class="fa-solid fa-star text-warning"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                        </div>
+                                        <h5 class="card-title">Ikan Peda</h5>
+                                        <p class="card-text">Rp. 15,000</p>
+                                        <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                            data-bs-target="#d-ikan">
+                                            Detail Produk
+                                        </button>
+                                        <!-- <a href="#" class="btn">Detail Produk</a> -->
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-lg-4">
+                                <div class="card" style="width: 13rem">
+                                    <img src="http://lapakjajan.yoviputranto.my.id/storage/assets/gallery/acUADqyHWwG6z5DUYSOvwJdEWEeoKsljE344q5R5.png"
+                                        class="card-img-top" alt="..." />
+                                    <div class="card-body">
+                                        <div class="card-title">
+                                            <i class="fa-solid fa-star text-warning"></i>
+                                            <i class="fa-solid fa-star text-warning"></i>
+                                            <i class="fa-solid fa-star text-warning"></i>
+                                            <i class="fa-solid fa-star text-warning"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                        </div>
+                                        <h5 class="card-title">Paket Ayam Rempah</h5>
+                                        <p class="card-text">Rp. 23,000</p>
+                                        <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                            data-bs-target="#d-paketayam">
+                                            Detail Produk
+                                        </button>
+                                        <!-- <a href="#" class="btn">Detail Produk</a> -->
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-lg-4">
+                                <div class="card" style="width: 13rem">
+                                    <img src="http://lapakjajan.yoviputranto.my.id/storage/assets/gallery/wKky6Z06jpxRADekbtMNAA6D9rBA18BZfmD0CrHg.png"
+                                        class="card-img-top" alt="..." />
+                                    <div class="card-body">
+                                        <div class="card-title">
+                                            <i class="fa-solid fa-star text-warning"></i>
+                                            <i class="fa-solid fa-star text-warning"></i>
+                                            <i class="fa-solid fa-star text-warning"></i>
+                                            <i class="fa-solid fa-star text-warning"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                        </div>
+                                        <h5 class="card-title">Pecel Ikan</h5>
+                                        <p class="card-text">Rp. 15,000</p>
+                                        <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                            data-bs-target="#d-pecelikan">
+                                            Detail Produk
+                                        </button>
+                                        <!-- <a href="#" class="btn">Detail Produk</a> -->
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-lg-4">
+                                <div class="card" style="width: 13rem">
+                                    <img src="http://lapakjajan.yoviputranto.my.id/storage/assets/gallery/U1ZQMEA6qItdoEbrT2SeSXoDWFCLmbfJ5VaAQ05F.png"
+                                        class="card-img-top" alt="..." />
+                                    <div class="card-body">
+                                        <div class="card-title">
+                                            <i class="fa-solid fa-star text-warning"></i>
+                                            <i class="fa-solid fa-star text-warning"></i>
+                                            <i class="fa-solid fa-star text-warning"></i>
+                                            <i class="fa-solid fa-star text-warning"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                        </div>
+                                        <h5 class="card-title">Sate Maranggi</h5>
+                                        <p class="card-text">Rp. 4,500</p>
+                                        <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                            data-bs-target="#d-satemaranggi">
+                                            Detail Produk
+                                        </button>
+                                        <!-- <a href="#" class="btn">Detail Produk</a> -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- FOOTER -->
+    <div class="container-fluid footer mt-5">
+        <div class="container">
+            <footer>
+                <div class="row">
+                    <div class="col-12 col-lg-4">
+                        <h3>Lapak Jajan</h3>
+                        <hr />
+                        <address>
+                            Jl. Dadali II No.3, RT/RW 01/05, Tanah Sareal, Kec. Tanah
+                            Sereal, Kota Bogor, Jawa Barat 16161
+                        </address>
+                    </div>
+                    <div class="col-12 col-lg-4 f-toko">
+                        <h4>Toko</h4>
+                        <hr />
+                        <a href="toko.html">Cilok Bogor</a><br />
+                        <a href="tokoMbok.html">Mbok Demplon<br />
+                            <a href="sugihRasa.html">Sugih Rasa</a><br />
+                            <a href="sofieKue.html">Dapur Sofie Kue</a>
+                    </div>
+                    <div class="col-12 col-lg-4 f-i">
+                        <h4>Informasi</h4>
+                        <hr />
+                        <a href="./../index.html">Beranda</a><br />
+                        <a href="toko.html">Toko</a><br />
+                        <a href="tentang.html">Tentang</a><br />
+                    </div>
+                </div>
+                <div class="row copyright">
+                    <center>
+                        <p>Copyright &copy; 2022 Lapak Jajan</p>
+                    </center>
+                </div>
+            </footer>
+        </div>
+    </div>
+
+    <!-- Modal Dimsum-->
+    <div class="modal fade" id="d-dimsum" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">DETAIL PRODUK</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="http://lapakjajan.yoviputranto.my.id/storage/assets/gallery/mEys288AheXZ6x2KsGsmpJD78aQ7HfDBSmUcsByx.png"
+                        class="card-img-top" alt="..." />
+                    <div class="card-title" id="modal-head1">
+                        <div class="start">
+                            <i class="fa-solid fa-star text-warning"></i>
+                            <i class="fa-solid fa-star text-warning"></i>
+                            <i class="fa-solid fa-star text-warning"></i>
+                            <i class="fa-solid fa-star text-warning"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <h5 class="card-title">Dimsum</h5>
+                        <p class="card-text">Rp. 3,000</p>
+                    </div>
+                    <p class="keteranganProduk">Terbuat dari olahan full daging ayam segar higienis (bukan dimsum tepung
+                        tepungan) & disajikan menggunakan saus ,kecap olahan dengan rasanya yang lezat dan Nikmat. Ayo
+                        rasakan lezatnya dimsum sugih rasa dengan toping udang,jamur,sosis,wortel, kepiting.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Ikan Peda-->
+    <div class="modal fade" id="d-ikan" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">DETAIL PRODUK</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="http://lapakjajan.yoviputranto.my.id/storage/assets/gallery/p9dHzoWrHlF0g3QjI7YFD10ZOrp5IdNoY3Os5h01.png"
+                        class="card-img-top" alt="..." />
+                    <div class="card-title" id="modal-head1">
+                        <div class="start">
+                            <i class="fa-solid fa-star text-warning"></i>
+                            <i class="fa-solid fa-star text-warning"></i>
+                            <i class="fa-solid fa-star text-warning"></i>
+                            <i class="fa-solid fa-star text-warning"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <h5 class="card-title">Ikan Peda</h5>
+                        <p class="card-text">Rp. 15,000</p>
+                    </div>
+                    <p class="keteranganProduk"> Ikan Peda adalah salah satu produk hasil pengawetan makanan yang diolah
+                        menggunakan teknik pengawetan secara fermentasi dan pengaraman. Ikan peda biasanya dibuat dari
+                        ikan kembung perempuan (Rasterliger neglectus). Dikenal dua macam ikan peda yaitu ikan peda
+                        merah (peda siam) dan ikan peda putih.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Paket Ayam Rempah-->
+    <div class="modal fade" id="d-paketayam" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">DETAIL PRODUK</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="http://lapakjajan.yoviputranto.my.id/storage/assets/gallery/acUADqyHWwG6z5DUYSOvwJdEWEeoKsljE344q5R5.png"
+                        class="card-img-top" alt="..." />
+                    <div class="card-title" id="modal-head1">
+                        <div class="start">
+                            <i class="fa-solid fa-star text-warning"></i>
+                            <i class="fa-solid fa-star text-warning"></i>
+                            <i class="fa-solid fa-star text-warning"></i>
+                            <i class="fa-solid fa-star text-warning"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <h5 class="card-title">Paket Ayam Rempah</h5>
+                        <p class="card-text">Rp. 23,000</p>
+                    </div>
+                    <p class="keteranganProduk"> Paket ayam rempah dengan aneka bumbu rempah yg pastinya nikmat ketika
+                        disantap, lezat,gurih dan rasamya bikin nagih dan nagih.. sambelnya yg bikin lidah ga kuat nahan
+                        pedasnya.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Pecel Ikan-->
+    <div class="modal fade" id="d-pecelikan" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">DETAIL PRODUK</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="http://lapakjajan.yoviputranto.my.id/storage/assets/gallery/wKky6Z06jpxRADekbtMNAA6D9rBA18BZfmD0CrHg.png"
+                        class="card-img-top" alt="..." />
+                    <div class="card-title" id="modal-head1">
+                        <div class="start">
+                            <i class="fa-solid fa-star text-warning"></i>
+                            <i class="fa-solid fa-star text-warning"></i>
+                            <i class="fa-solid fa-star text-warning"></i>
+                            <i class="fa-solid fa-star text-warning"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <h5 class="card-title">Pecel Ikan</h5>
+                        <p class="card-text">Rp. 15,000</p>
+                    </div>
+                    <p class="keteranganProduk"> Pecak ikan adalah sajian berupa ikan goreng atau ikan bakar yang
+                        diguyur dengan kuah pecak. Ikan yang digunakan bisa ikan apa saja... dengan rasa pedas,asem
+                        dengan guyuran air limo yg membuat mata melek.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Sate Maranggi-->
+    <div class="modal fade" id="d-satemaranggi" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">DETAIL PRODUK</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="http://lapakjajan.yoviputranto.my.id/storage/assets/gallery/U1ZQMEA6qItdoEbrT2SeSXoDWFCLmbfJ5VaAQ05F.png"
+                        class="card-img-top" alt="..." />
+                    <div class="card-title" id="modal-head1">
+                        <div class="start">
+                            <i class="fa-solid fa-star text-warning"></i>
+                            <i class="fa-solid fa-star text-warning"></i>
+                            <i class="fa-solid fa-star text-warning"></i>
+                            <i class="fa-solid fa-star text-warning"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <h5 class="card-title">Sate Maranggi</h5>
+                        <p class="card-text">Rp. 4,500</p>
+                    </div>
+                    <p class="keteranganProduk"> Sate Maranggi sangat populer karena cita rasanya yang sangat kaya dan
+                        berbeda dengan jenis sate lainnya. Walaupun sama-sama merupakan daging yang dibakar di atas
+                        arang, tapi cita rasa Sate Maranggi memang sangat berbeda dengan jenis sate lainnya.
+                        Keistimewaan ini datang dari banyak hal, di antaranya: dengan bumbu oncom dan acar serta sambel
+                        kecapnya.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./../javascript/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        once: true,
+      });
+    </script>
+</body>
+
+</html>
